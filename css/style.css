@@ -1,0 +1,170 @@
+@import url('/css/utilities.css');
+@import url('/css/variable.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-colr-body);
+    color: var(--nav-txt-colr);
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    font-size: 13px;
+    height: 40px;
+    padding: .8rem 15px;
+}
+
+
+.icon {
+    width: var(--icon-size-wd);
+    height: var(--icon-size-ht);
+    border-radius: var(--border-radius-icon);
+    padding: var(--icon-padding);
+    filter: invert(100%);
+    cursor: pointer;
+    position: relative;
+    left: 7px;
+    top: 2px;
+}
+
+.nav{
+    transform: translateY(-5px);
+    font-size: 13px;
+}
+
+.gmail, .image{
+    position: relative;
+    left: 4px;
+}
+
+.gmail{
+    right: 1px;
+}
+
+.avtar{
+    width: 30px;
+    height: 35px;
+    position: relative;
+    left: 0px;
+    text-align: center;
+    top: 1px;
+    height: 30px;
+    background-color: rgb(15, 29, 10);
+    border-radius: 50%;
+    padding: 1.2rem;
+}
+
+.avtar:hover{
+    box-shadow: 0px 0px 5px rgba(231, 231, 231, 0.3);
+}
+
+.icon:hover{
+    background-color: var(--hover-icon);
+}
+
+.btn {
+    padding: var(--btn-sign-in-padding);
+    border-radius: var(--common-br-rd);
+    border: none;
+    background-color: var(--btn-bg-colr);
+    color: var(--btn-colr);
+    transition: var(--transition-btn);
+}
+
+.btn:hover{
+    background-color: var(--btn-bg-colr-hovr);
+}
+
+.main_content{
+    transform: translateY(24px);
+}
+
+.Google_img{
+    transform: translateY(-5px);
+}
+
+input{
+    width: var(--input-lth-wd);
+    height: var(--input-lth-ht);
+}
+
+.input_search_icon{
+    width: 584px;
+    height: 46px;
+    border: .6px solid rgba(236, 235, 235, 0.335);
+    border-radius: 33px;
+    margin: auto;
+    transform: translateY(21px);
+}
+
+.input_search_icon:hover{
+    background-color: rgba(95, 95, 95,.3);
+    border-color: transparent;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.3);
+}
+
+.search_icon img{
+    width: 19.8px;
+    filter: invert(38%);
+    position: relative;
+    top: 2px;
+    left: -9px;
+}
+
+.mic_icon img{
+    width: 14px;
+    position: relative;
+    top: 2px;
+    left: 2.2px;
+}
+
+.input_box input{
+    background-color: transparent;
+    border: none;
+    border-style: none;
+}
+
+.two_btn{
+    transform: translateY(39px);
+}
+
+.two_btn .btn1, .btn2{
+    padding: 0 16px;
+    font-size: 14px;
+    margin: 11px 6px;
+    color: #e8eaed;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    height: 36px;
+    min-width: 60px;
+}
+
+.btn1:hover{
+    border: 1px solid rgba(255, 255, 255, 0.246);
+}
+
+.btn2:hover{
+    border: 1px solid rgba(255, 255, 255, 0.246);
+}
+
+.lan_list{
+    transform: translateY(54px);
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+.lan_list li{
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    right: 10px;
+    margin: 0 .4rem;
+}

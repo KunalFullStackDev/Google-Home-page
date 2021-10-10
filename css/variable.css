@@ -1,0 +1,21 @@
+:root{
+    --icon-size-wd : 39.5px;
+    --icon-size-ht : 40px;
+    --hover-icon : rgba(14, 13, 13, 0.089);
+    --icon-padding : .7rem .3rem;
+    --border-radius-icon : 50%;
+    --nav-txt-colr : #fff;
+    --bg-colr-body : #202124;
+    --font-family : Roboto,RobotoDraft,Arial,sans-serif;
+    --btn-sign-in-padding : 10px 30px;
+    --common-br-rd : 8px;
+    --btn-bg-colr : rgb(0, 128, 248);
+    --btn-bg-colr-hovr : rgb(68, 165, 255);
+    --btn-colr : rgb(255, 255, 255);
+    --transition-btn : .2s all;
+    --input-lth-wd : 483px;
+    --input-lth-ht : 32px;
+    --brd-rd-lrge : 20% 20% 20% 20%;
+    --button-padding : 10px 16px;
+}
+
